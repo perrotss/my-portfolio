@@ -36,6 +36,11 @@ p {
     opacity: 0.9;
 }
 
+#container1 {
+    display: flex;
+    justify-content: space-around;
+}
+
 .nav li a {
     text-decoration:    none !important;
     display:            inline-block;
