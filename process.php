@@ -3,14 +3,14 @@
 	$email = $_POST["email"];
 	$message = $_POST["message"];
 	 
-	$EmailTo = "youremail@gmail.com"; // change with your email
+	$EmailTo = "francescoperrozzi3@gmail.com"; 
 	$Subject = "Portfolio CV/Resume";
 	 
 	// prepare email body text
 	
 	$Body .= "Name: ";
 	$Body .= $name;
-	$Body .= "\n"; 
+	$Body .= "\n";
 	 
 	$Body .= "Email: ";
 	$Body .= $email;
